@@ -17,3 +17,4 @@ class TestLoginFlow(TestCase):
         login_page = LoginPage(self.driver)
         login_page.open()
         login_page.fill_required_fields(USER)
+

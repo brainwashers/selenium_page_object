@@ -24,3 +24,4 @@ class BasePage:
         locator = (By.CSS_SELECTOR, locator)
         return WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator),
                                                       message=f"Can't find elements by locator {locator}")
+

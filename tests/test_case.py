@@ -10,3 +10,4 @@ class TestCase(object):
 
     def teardown_method(self):
         self.driver.quit()
+

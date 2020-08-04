@@ -26,3 +26,4 @@ class LoginPage(BasePage):
 
         time.sleep(1)
         assert self.find_element('#userName-value').text == user_data['login']
+
